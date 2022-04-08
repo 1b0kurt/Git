@@ -44,6 +44,8 @@ fun DefaultPreview() {
 
         Greeting("üçüncü")
 
+        Greeting("dört")
+
 
     }
 }
