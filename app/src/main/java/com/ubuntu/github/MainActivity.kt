@@ -48,7 +48,7 @@ fun DefaultPreview() {
 
         Greeting("beşinci")
 
-
+iki şey
 
     }
 }
