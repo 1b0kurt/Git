@@ -47,7 +47,7 @@ fun DefaultPreview() {
         Greeting("dört")
 
         Greeting("beşinci")
-        wadwadaw
+
 
 
     }
