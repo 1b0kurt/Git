@@ -39,5 +39,11 @@ fun Greeting(name: String) {
 fun DefaultPreview() {
     GitHubTheme {
         Greeting("Android")
+
+        Greeting("ikinci")
+
+        Greeting("üçüncü")
+
+
     }
 }
