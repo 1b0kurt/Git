@@ -56,3 +56,5 @@ fun DefaultPreview() {
         Greeting("2")
     }
 }
+
+var a=8
