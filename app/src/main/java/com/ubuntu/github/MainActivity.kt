@@ -73,7 +73,7 @@ class MainActivity : ComponentActivity() {
                         Text(text = "2.Bu gitHubtaki")
                         Image(bitmap = ImageBitmap.imageResource(id = R.drawable.aaaa), contentDescription =null )
                     }
-                    Text(text = "3.Bu gitHubtaki")
+                    Text(text = "4.Bu gitHubtaki")
                 }
 
 
