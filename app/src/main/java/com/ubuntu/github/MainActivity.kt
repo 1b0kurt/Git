@@ -55,8 +55,13 @@ fun Greeting(name: String) {
 @Composable
 fun DefaultPreview() {
     GitHubTheme {
-        
-       
+
+        Greeting("1")
+        Greeting("2")
+        Greeting("3")
+        Greeting("4")
+        Greeting("5")
+
     }
 }
 
