@@ -64,7 +64,7 @@ fun DefaultPreview() {
         Greeting("777")
         Greeting("666")
         Greeting("222")
-        Greeting("5")
+        Greeting("666")
 
     }
 }
