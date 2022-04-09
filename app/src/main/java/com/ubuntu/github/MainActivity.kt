@@ -63,6 +63,16 @@ class MainActivity : ComponentActivity() {
                         Text(text = "bu normaldeki işte")
                         Image(bitmap = ImageBitmap.imageResource(id = R.drawable.aaaa), contentDescription =null )
                     }
+                    
+                    Column(
+                        Modifier
+                            .size(100.dp,100.dp)
+                            .background(Color.Yellow).padding(10.dp),
+                        verticalArrangement = Arrangement.Center,
+                        horizontalAlignment = Alignment.CenterHorizontally) {
+                        Text(text = "2.Bu gitHubtaki")
+                        Image(bitmap = ImageBitmap.imageResource(id = R.drawable.aaaa), contentDescription =null )
+                    }
 
                 }
 
