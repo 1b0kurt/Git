@@ -55,21 +55,7 @@ fun Greeting(name: String) {
 @Composable
 fun DefaultPreview() {
     GitHubTheme {
-        Greeting("Android")
-
-        Greeting("ikinci")
-
-        Greeting("üçüncü")
-
-        Greeting("dört")
-
-        Greeting("beşinci")
-
-        Greeting("beşinci")
-        Greeting("DİLİM DİLİM")
-
-        Greeting("aslann")
-        Greeting("branch")
+        
        
     }
 }
