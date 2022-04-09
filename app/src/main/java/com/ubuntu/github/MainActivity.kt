@@ -73,7 +73,7 @@ class MainActivity : ComponentActivity() {
                         Text(text = "2.Bu gitHubtaki")
                         Image(bitmap = ImageBitmap.imageResource(id = R.drawable.aaaa), contentDescription =null )
                     }
-
+                    Text(text = "3. bu normaldeki işte")
                     Column(
                         Modifier
                             .size(100.dp, 100.dp)
