@@ -107,7 +107,7 @@ class MainActivity : ComponentActivity() {
                 
             }
         }
-
+        var deli="sevmedim"
         var b="ahmet"
 
         var c="mehmet"
