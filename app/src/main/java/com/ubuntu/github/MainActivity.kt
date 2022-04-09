@@ -48,6 +48,7 @@ fun Greeting(name: String) {
     Greeting("ikinci")
     Greeting("ikinci")
     Greeting("ikinci")
+    Greeting("aaa")
 }
 
 
