@@ -42,6 +42,16 @@ class MainActivity : ComponentActivity() {
 
                         Image(bitmap = ImageBitmap.imageResource(id = R.drawable.aaaa), contentDescription =null )
                     }
+                    
+                    Column(
+                        Modifier
+                            .size(100.dp,100.dp)
+                            .background(Color.Yellow).padding(10.dp),
+                        verticalArrangement = Arrangement.Center,
+                        horizontalAlignment = Alignment.CenterHorizontally) {
+                        Text(text = "Bu gitHubtaki")
+                        Image(bitmap = ImageBitmap.imageResource(id = R.drawable.aaaa), contentDescription =null )
+                    }
 
                     Column(
                         Modifier
