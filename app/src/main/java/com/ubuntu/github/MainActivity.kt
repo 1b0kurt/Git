@@ -25,19 +25,32 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             GitHubTheme {
-                Column(Modifier
-                    .fillMaxSize()
-                    .background(Color.White),
+                Column(
+                    Modifier
+                        .fillMaxSize()
+                        .background(Color.White),
                     verticalArrangement = Arrangement.Center,
                     horizontalAlignment = Alignment.CenterHorizontally) {
 
                     Column(
                         Modifier
-                            .size(100.dp,100.dp)
-                            .background(Color.Yellow).padding(10.dp),
+                            .size(100.dp, 100.dp)
+                            .background(Color.Yellow)
+                            .padding(10.dp),
                         verticalArrangement = Arrangement.Center,
                         horizontalAlignment = Alignment.CenterHorizontally) {
 
+                        Image(bitmap = ImageBitmap.imageResource(id = R.drawable.aaaa), contentDescription =null )
+                    }
+
+                    Column(
+                        Modifier
+                            .size(100.dp, 100.dp)
+                            .background(Color.Yellow)
+                            .padding(10.dp),
+                        verticalArrangement = Arrangement.Center,
+                        horizontalAlignment = Alignment.CenterHorizontally) {
+                        Text(text = "bu normaldeki işte")
                         Image(bitmap = ImageBitmap.imageResource(id = R.drawable.aaaa), contentDescription =null )
                     }
 
