@@ -67,6 +67,8 @@ fun DefaultPreview() {
         Greeting("222")
         Greeting("1234")
 
+        Greeting("aaa")
+
     }
 }
 
