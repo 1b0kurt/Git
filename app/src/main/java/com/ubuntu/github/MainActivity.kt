@@ -53,7 +53,7 @@ fun Greeting(name: String) {
     Greeting("ccc")
     Greeting("DDD")
 }
-
+var ahmet="selami"
 
 @Preview(showBackground = true)
 @Composable
