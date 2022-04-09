@@ -18,7 +18,6 @@ import androidx.compose.ui.res.imageResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.ubuntu.github.ui.theme.GitHubTheme
-var a=5
 var ahmet="mehmet"
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -88,6 +87,7 @@ class MainActivity : ComponentActivity() {
                     }
 
                 }
+                var a="ahmet"
 
 
 
