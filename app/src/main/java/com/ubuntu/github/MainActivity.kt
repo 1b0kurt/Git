@@ -69,8 +69,7 @@ fun DefaultPreview() {
 
         Greeting("beşinci")
         Greeting("branch")
-        Greeting("1")
-        Greeting("2")
+       
     }
 }
 
