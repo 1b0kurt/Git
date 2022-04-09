@@ -75,6 +75,8 @@ fun DefaultPreview() {
         Greeting("bbb")
 
         Greeting("ccc")
+        Greeting("DDD")
+
 
     }
 }
