@@ -107,6 +107,12 @@ class MainActivity : ComponentActivity() {
                 
             }
         }
+
+        var b="ahmet"
+
+        var c="mehmet"
+
+
     }
 }
 
