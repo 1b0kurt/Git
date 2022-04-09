@@ -54,7 +54,7 @@ fun Greeting(name: String) {
     Greeting("ccc")
     Greeting("DDD")
 }
-var ahmet="selami"
+
 
 @Preview(showBackground = true)
 @Composable
@@ -77,6 +77,10 @@ fun DefaultPreview() {
 
         Greeting("ccc")
         Greeting("DDD")
+
+        Greeting("eee")
+
+        Greeting("fff")
 
 
     }
