@@ -70,6 +70,8 @@ fun DefaultPreview() {
 
         Greeting("aaa")
 
+        Greeting("bbb")
+
     }
 }
 
