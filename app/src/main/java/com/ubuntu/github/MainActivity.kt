@@ -88,6 +88,8 @@ class MainActivity : ComponentActivity() {
                     }
 
                 }
+                
+                var a="mehmet"
 
 
 
