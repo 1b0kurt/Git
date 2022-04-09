@@ -41,7 +41,7 @@ class MainActivity : ComponentActivity() {
 
                         Image(bitmap = ImageBitmap.imageResource(id = R.drawable.aaaa), contentDescription =null )
                     }
-                    
+                    var sana="kim"
                     Column(
                         Modifier
                             .size(100.dp,100.dp)
