@@ -99,6 +99,7 @@ class MainActivity : ComponentActivity() {
                     Text(text = "son bu normaldeki işte")
                     Image(bitmap = ImageBitmap.imageResource(id = R.drawable.aaaa), contentDescription =null )
                 }
+                var sana2="deneme"
 
 
 
