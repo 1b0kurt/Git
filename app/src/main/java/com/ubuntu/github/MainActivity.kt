@@ -107,7 +107,7 @@ class MainActivity : ComponentActivity() {
                 
             }
         }
-
+        var cak="kim"
         var b="ahmet"
 
         var c="mehmet"
