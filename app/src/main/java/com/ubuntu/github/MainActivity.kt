@@ -109,7 +109,7 @@ class MainActivity : ComponentActivity() {
         }
 
         var b="ahmet"
-
+        var deli="sevdim"
         var c="mehmet"
 
 
