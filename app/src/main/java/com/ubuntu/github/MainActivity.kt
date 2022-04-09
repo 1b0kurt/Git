@@ -51,6 +51,7 @@ fun Greeting(name: String) {
     Greeting("aaa")
     Greeting("bbb")
     Greeting("ccc")
+    Greeting("DDD")
 }
 
 
