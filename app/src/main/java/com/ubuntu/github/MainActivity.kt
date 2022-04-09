@@ -89,7 +89,17 @@ class MainActivity : ComponentActivity() {
                 }
                 var a="ahmet"
                 var m="Mehmet"
-                var m="sadam"
+                Column(
+                    Modifier
+                        .size(100.dp, 100.dp)
+                        .background(Color.Yellow)
+                        .padding(10.dp),
+                    verticalArrangement = Arrangement.Center,
+                    horizontalAlignment = Alignment.CenterHorizontally) {
+                    Text(text = "son bu normaldeki işte")
+                    Image(bitmap = ImageBitmap.imageResource(id = R.drawable.aaaa), contentDescription =null )
+                }
+
 
 
 
