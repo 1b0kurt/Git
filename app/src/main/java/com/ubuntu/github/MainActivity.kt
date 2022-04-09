@@ -50,6 +50,7 @@ fun Greeting(name: String) {
     Greeting("ikinci")
     Greeting("aaa")
     Greeting("bbb")
+    Greeting("ccc")
 }
 
 
