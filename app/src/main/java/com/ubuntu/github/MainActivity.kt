@@ -62,6 +62,7 @@ fun DefaultPreview() {
         Greeting("4")
         Greeting("ges")
         Greeting("666")
+        Greeting("555")
         Greeting("5")
 
     }
