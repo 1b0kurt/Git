@@ -51,7 +51,7 @@ class MainActivity : ComponentActivity() {
                         Text(text = "Bu gitHubtaki")
                         Image(bitmap = ImageBitmap.imageResource(id = R.drawable.aaaa), contentDescription =null )
                     }
-
+                    var sana="bana"
                     Column(
                         Modifier
                             .size(100.dp, 100.dp)
