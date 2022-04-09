@@ -66,6 +66,7 @@ fun DefaultPreview() {
         Greeting("beşinci")
 
         Greeting("beşinci")
+        Greeting("DİLİM DİLİM")
 
         Greeting("aslann")
         Greeting("branch")
