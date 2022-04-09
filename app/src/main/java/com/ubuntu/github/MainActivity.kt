@@ -88,6 +88,7 @@ class MainActivity : ComponentActivity() {
 
                 }
                 var a="ahmet"
+                var m="sadam"
 
 
 
