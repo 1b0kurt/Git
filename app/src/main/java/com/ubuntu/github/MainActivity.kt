@@ -24,21 +24,29 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             GitHubTheme {
-                Column(
-                    Modifier
-                        .fillMaxSize()
-                        .background(Color.White),
-                    verticalArrangement = Arrangement.Center,
-                    horizontalAlignment = Alignment.CenterHorizontally) {
-
-                }
-
+                
+                Merhaba()
             }
         }
 
 
 
     }
+}
+
+@Composable
+fun Merhaba()
+{
+    Column(
+        Modifier
+            .fillMaxSize()
+            .background(Color.White),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally) {
+        Text(text = "Bu localde değişmiştir")
+
+    }
+    
 }
 
 
