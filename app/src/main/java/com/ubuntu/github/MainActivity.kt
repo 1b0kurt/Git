@@ -41,6 +41,21 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+@Composable
+fun Merhaba2()
+{
+    Column(
+        Modifier
+            .fillMaxSize()
+            .background(Color.White),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally) {
+        Text(text = "Bu GitHub değişmiştir")
+
+    }
+    
+}
+
 
 
 
