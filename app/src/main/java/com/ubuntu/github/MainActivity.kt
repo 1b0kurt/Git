@@ -31,86 +31,11 @@ class MainActivity : ComponentActivity() {
                     verticalArrangement = Arrangement.Center,
                     horizontalAlignment = Alignment.CenterHorizontally) {
 
-                    Column(
-                        Modifier
-                            .size(100.dp, 100.dp)
-                            .background(Color.Yellow)
-                            .padding(10.dp),
-                        verticalArrangement = Arrangement.Center,
-                        horizontalAlignment = Alignment.CenterHorizontally) {
-
-                        Image(bitmap = ImageBitmap.imageResource(id = R.drawable.aaaa), contentDescription =null )
-                    }
-                    var sana2="kim"
-                    Column(
-                        Modifier
-                            .size(100.dp,100.dp)
-                            .background(Color.Yellow).padding(10.dp),
-                        verticalArrangement = Arrangement.Center,
-                        horizontalAlignment = Alignment.CenterHorizontally) {
-                        Text(text = "Bu gitHubtaki")
-                        Image(bitmap = ImageBitmap.imageResource(id = R.drawable.aaaa), contentDescription =null )
-                    }
-                    var sana="bana"
-                    Column(
-                        Modifier
-                            .size(100.dp, 100.dp)
-                            .background(Color.Yellow)
-                            .padding(10.dp),
-                        verticalArrangement = Arrangement.Center,
-                        horizontalAlignment = Alignment.CenterHorizontally) {
-                        Text(text = "bu normaldeki işte")
-                        Image(bitmap = ImageBitmap.imageResource(id = R.drawable.aaaa), contentDescription =null )
-                    }
-                    
-                    Column(
-                        Modifier
-                            .size(100.dp,100.dp)
-                            .background(Color.Yellow).padding(10.dp),
-                        verticalArrangement = Arrangement.Center,
-                        horizontalAlignment = Alignment.CenterHorizontally) {
-                        Text(text = "2.Bu gitHubtaki")
-                        Image(bitmap = ImageBitmap.imageResource(id = R.drawable.aaaa), contentDescription =null )
-                    }
-                    Text(text = "4.Bu gitHubtaki")
-                    Text(text = "3.Bu gitHubtaki")
-                    Text(text = "3. bu normaldeki işte")
-                    Column(
-                        Modifier
-                            .size(100.dp, 100.dp)
-                            .background(Color.Yellow)
-                            .padding(10.dp),
-                        verticalArrangement = Arrangement.Center,
-                        horizontalAlignment = Alignment.CenterHorizontally) {
-                        Text(text = "ikinci bu normaldeki işte")
-                        Image(bitmap = ImageBitmap.imageResource(id = R.drawable.aaaa), contentDescription =null )
-                    }
-
                 }
-                var a="ahmet"
-                var m="Mehmet"
-                Column(
-                    Modifier
-                        .size(100.dp, 100.dp)
-                        .background(Color.Yellow)
-                        .padding(10.dp),
-                    verticalArrangement = Arrangement.Center,
-                    horizontalAlignment = Alignment.CenterHorizontally) {
-                    Text(text = "son bu normaldeki işte")
-                    Image(bitmap = ImageBitmap.imageResource(id = R.drawable.aaaa), contentDescription =null )
-                }
-                var sana2="deneme"
 
-
-
-
-                
             }
         }
-        var deli="sevmedim"
-        var b="ahmet"
-        var deli="sevdikm"
-        var c="mehmet"
+
 
 
     }
